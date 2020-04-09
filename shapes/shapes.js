@@ -17,10 +17,12 @@ function draw() {
   strokeJoin(ROUND)
 
   noFill()
-  stroke(255)
+  stroke(50, 166, 50)
   rectMode(CENTER)
   rect(x, y, size, size)
+  stroke(50, 166, 100)
   circle(x, y, size)
+  stroke(100, 166, 50)
   triangle(
     x,
     y - size / 2,
