@@ -7,22 +7,23 @@ function windowResized() {
 }
 
 function draw() {
-  background(5)
+  blendMode(BLEND)
+  background(255)
 
   const x = width / 2
   const y = height / 2
   const diameter = min(width, height)
-  const size = diameter * 0.3
+  const size = diameter * 0.4
   strokeWeight(diameter * 0.006)
   strokeJoin(ROUND)
 
-  noFill()
-  stroke(50, 166, 50)
+  blendMode(DIFFERENCE)
+
+  noStroke()
+  stroke(0)
   rectMode(CENTER)
-  rect(x, y, size, size)
-  stroke(50, 166, 100)
-  circle(x, y, size)
-  stroke(100, 166, 50)
+  rect(x + 55, y + 45, size, size)
+  circle(x - 40, y + 90, size)
   triangle(
     x,
     y - size / 2,
