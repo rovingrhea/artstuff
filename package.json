@@ -1,0 +1,22 @@
+{
+  "name": "artstuff",
+  "version": "1.0.0",
+  "description": "I am artist, yes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rovingrhea/artstuff.git"
+  },
+  "author": "Helene Dunlop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rovingrhea/artstuff/issues"
+  },
+  "homepage": "https://github.com/rovingrhea/artstuff#readme",
+  "dependencies": {
+    "p5": "^1.0.0"
+  }
+}
