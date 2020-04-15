@@ -1,5 +1,5 @@
 var renderer = new THREE.WebGLRenderer({
-  canvas: document.getElementById('myCanvas'),
+  canvas: document.getElementById('canva'),
   antialias: true
 })
 
@@ -10,10 +10,10 @@ var camera = new THREE.PerspectiveCamera(35, window.innerWidth/window.innerHeigh
 
 var scene = new THREE.Scene()
 
-var ambientLight = new THREE.AmbientLight(0xffffff, 0.5)
+var ambientLight = new THREE.AmbientLight('#ffffff', 0.5)
 scene.add(ambientLight)
 
-var pointLight = new THREE.PointLight(0xffffff, 0.5)
+var pointLight = new THREE.PointLight('#ffffff', 0.5)
 scene.add(pointLight)
 
 var geometry = new THREE.CubeGeometry(100, 100, 100)
